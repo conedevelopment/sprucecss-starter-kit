@@ -7,7 +7,7 @@
   </a>
 </p>
 
-**The designing in the browser starter kit repository contains a simple foundation for designing in the browser. It is nothing more but a simple and opinionated starter foundation based on our experience. So feel free to modify in any way.**
+**The "Designing in the Browser Starter Kit" repository contains a simple foundation for designing in the browser. It is nothing more but a simple and opinionated starter foundation based on our experience. So feel free to modify in any way.**
 
 It is a mix of essential tools that we like to use and necessary for working in the browser fast. This project aims to quickly design and then get the source files to integrate into other platforms like WordPress, Laravel, or Gatsby.
 
