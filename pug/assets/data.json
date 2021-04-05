@@ -1,27 +1,23 @@
 {
     "testimonials":[
         {
-            "icon": "search",
-            "title": "Advanced search",
-            "subtitle": "Find anything you want with ease",
+            "icon": "fingerprint",
+            "title": "Testimonial 01",
             "description": "Lorem ipsum dolor sit amet, gravida nonna maecenas veritatis vestum."
         },
         {
-            "icon": "local-shipping",
-            "title": "Free shipping and return",
-            "subtitle": "Free delivery over $100",
+            "icon": "shipping-bag",
+            "title": "Testimonial 02",
             "description": "Etiam ipsum justo, ullamcorper at placerat ac, consectetur quis lacus."
         },
         {
-            "icon": "verified",
-            "title": "Money back garantee",
-            "subtitle": "30 days money back",
+            "icon": "receipt",
+            "title": "Testimonial 03",
             "description": "Curabitur metus dolor, interdum ut ex id, luctus convallis ligula."
         },
         {
-            "icon": "local-mall",
-            "title": "Large assortment",
-            "subtitle": "Fast shipping because of the huge stock",
+            "icon": "support",
+            "title": "Testimonial 04",
             "description": "Suspendisse neque purus, pharetra eget accumsan nec, pharetra feugiat neque."
         }
     ]
