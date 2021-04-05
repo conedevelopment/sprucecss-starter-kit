@@ -24,7 +24,7 @@ If you want to know why it is a good idea to design in the browser, you can read
 
 ## Get Up and Running
 
-It is easy to start a new project, but please read the following points ([Pug](#pug) [Sass](#sass) [Browsersyns](#browsersync)) to understand how it works before you do it.
+It is easy to start a new project, but please read the following points ([Pug](#pug) [Sass](#sass) [Browsersync](#browsersync)) to understand how it works before you do it.
 
 1. **Clone the repository.**
 2. **Install the dependencies.**
