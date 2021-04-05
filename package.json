@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "pug": "pug --obj pug/assets/data.json --watch pug/templates --out html/ --pretty",
-        "sass": "sass --watch --no-source-map --update --style=expanded scss:css",
+        "sass": "sass --watch --no-source-map --update --style=expanded assets/scss:assets/css",
         "beautify": "js-beautify --type html --indent-size 4 --inline i,b,strong,span html/**/*.html",
         "browser-sync": "browser-sync start --server --startPath \"html/page/home.html\" --files \"**/*\" --directory --no-notify",
         "sass-lint": "stylelint scss/**/*.scss",
