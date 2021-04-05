@@ -15,12 +15,12 @@ If you want to know why it is a good idea to design in the browser, you can read
 
 ## Table of Contents
 
-- [Get Up and Running](#-get-up-and-running)
-- [Pug](#-pug)
-- [SCSS](#-scss)
-- [Browsersync](#-browsersync)
-- [Misc](#-misc)
-- [License](#-license)
+- [Get Up and Running](#get-up-and-running)
+- [Pug](#pug)
+- [SCSS](#scss)
+- [Browsersync](#browsersync)
+- [Misc](#misc)
+- [License](#license)
 
 ## Get Up and Running
 
@@ -65,4 +65,4 @@ Running the `npm run dev` will also start up a Browsersync server which you can 
 
 ## License
 
-The "Designing in the Browser Starter Kit" is open-sourced software licensed under the [MIT](LICENSE).
+The "Designing in the Browser Starter Kit" is open-sourced software licensed under the [MIT](LICENSE) unless the Cone Development logo.
