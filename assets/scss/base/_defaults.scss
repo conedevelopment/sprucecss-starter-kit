@@ -1,0 +1,40 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+::selection {
+    background-color: var(--color-primary-dark);
+    color: #fff;
+    -webkit-text-fill-color: currentcolor;
+}
+
+html {
+    scroll-behavior: smooth;
+ 
+    @media (prefers-reduced-motion: reduce) {
+        scroll-behavior: auto;
+    }
+}
+
+body {
+    background-color: #fff;
+    color: var(--color-gray-dark);
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    transition: color var(--transition-duration) var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--color-primary-dark);
+        text-decoration: none;
+    }
+}

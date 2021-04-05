@@ -1,0 +1,44 @@
+:root {
+    font-size: 100%;
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: 1.0378rem;
+    line-height: var(--line-height-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-black);
+    font-weight: 700;
+    line-height: var(--line-height-heading);
+}
+
+h1 {
+    font-size: calc(1.75 * var(--heading-scale) * 1rem);
+}
+
+h2 {
+    font-size: calc(1.15 * var(--heading-scale) * 1rem);
+}
+
+h3 {
+    font-size: calc(0.85 * var(--heading-scale) * 1rem);
+}
+
+h4 {
+    font-size: calc(var(--heading-scale) / 2 * 1rem);
+}
+
+h5 {
+    font-size: calc(var(--heading-scale) / 3 * 1rem);
+}
+
+h6 {
+    font-size: calc(var(--heading-scale) / 4 * 1rem);
+}

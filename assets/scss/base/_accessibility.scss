@@ -1,0 +1,25 @@
+.sr-only,
+.screen-reader-text,
+.screen-reader-response {
+    @include visually-hidden();
+}
+
+.skip-link {
+    background-color: var(--color-primary-darker);
+    border-radius: var(--border-radius-large);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: inline-block;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    left: 2rem;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: -100px;
+
+    &:focus {
+        color: #fff;
+        top: 2rem;
+        z-index: 10;
+    }
+}
