@@ -24,7 +24,7 @@ If you want to know why it is a good idea to design in the browser, you can read
 
 ## Get Up and Running
 
-It is easy to start a new project, but please read the following points ([Pug](#-pug) [Sass](#-sass) [Browsersyns](#-browsersync)) to understand how it works before you do it.
+It is easy to start a new project, but please read the following points ([Pug](#pug) [Sass](#sass) [Browsersyns](#browsersync)) to understand how it works before you do it.
 
 1. **Clone the repository.**
 2. **Install the dependencies.**
@@ -62,6 +62,8 @@ The project compiles the SCSS files from the `assets/sass` folder into the `asse
 Running the `npm run dev` will also start up a Browsersync server which you can share across your local network. It will automatically open the URL in your default browser with the `html/page/home.html` file.
 
 ## Misc
+
+[...]
 
 ## License
 
