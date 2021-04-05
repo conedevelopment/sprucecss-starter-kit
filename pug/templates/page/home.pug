@@ -1,22 +1,22 @@
 -var time = Date.now();
 
 doctype html
-html(lang='hu')
+html(lang='en')
     head
         meta(charset='UTF-8')
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
         meta(name='robots' content='noindex')
         title Designing in the Browser Starter Kit - Cone
         link(rel='preconnect' href='//fonts.googleapis.com')
-        link(rel='icon' href='../../img/favicon.png' sizes='32x32')
+        link(rel='icon' href='../../assets/img/favicon.png' sizes='32x32')
         link(rel='stylesheet' href='//fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
         link(rel='stylesheet' href=`../../css/main.css?time=${time}`)
 
-    body(data-theme-mode='system')
+    body
         include ../components/generic/header
         main(id='content')
-            p [Main content]
+            include ../components/generic/testimonial
         include ../components/generic/footer
-        include ../../../assets/icons/icons.svg
+        include ../../../assets/icon/icons.svg
 
-        script(src='../../js/scroll-to-top.js')
+        script(src='../../assets/js/main.js')
