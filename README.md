@@ -63,7 +63,11 @@ Running the `npm run dev` will also start up a Browsersync server which you can 
 
 ## Misc
 
-[...]
+**HTML Beautify:** You can run your generated files through a [beautifier](https://www.npmjs.com/package/js-beautify) with the `npm run beautify` command; this is needed because sometimes the Pug pretty formatting makes a mistake (or you need another indenting).
+
+**Sass Lint:** You can lint your SCSS files with [Stylelint](https://stylelint.io/) and [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines) preset with the `npm run sass-lint` command.
+
+**Icons:** A starter kit uses a simple SVG-based icon solution. You can extend it through `assets/icon/icons.svg` file. To use the icons first, you have to include them in any Pug template (like you see it in the `home.pug`). We created an `icon` mixin with which you can easily include any icon as you see in the `testimonial.pug` file.
 
 ## License
 
