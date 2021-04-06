@@ -7,11 +7,11 @@
   </a>
 </p>
 
-**The "Designing in the Browser Starter Kit" repository contains a simple foundation for designing in the browser. It is nothing more but a simple and opinionated starter foundation based on our experience. So feel free to modify in any way.**
+**The “Designing in the Browser Starter Kit” repository contains a simple foundation for designing in the browser. It is nothing more but a simple and opinionated starter foundation based on our experience. So feel free to modify in any way.**
 
 It is a mix of essential tools that we like to use and necessary for working in the browser fast. This project aims to quickly design and then get the source files to integrate into other platforms like WordPress, Laravel, or Gatsby.
 
-If you want to know why it is a good idea to design in the browser, you can read about my thoughts on Pine.
+If you want to know why it is a good idea to design in the browser, you can read about [my thoughts on Pine](https://pineco.de/designing-in-the-browser/).
 
 ## Table of Contents
 
@@ -67,4 +67,4 @@ Running the `npm run dev` will also start up a Browsersync server which you can 
 
 ## License
 
-The "Designing in the Browser Starter Kit" is open-sourced software licensed under the [MIT](LICENSE) unless the Cone Development logo.
+The “Designing in the Browser Starter Kit” is open-sourced software licensed under the [MIT](LICENSE) unless the Cone Development logo.
