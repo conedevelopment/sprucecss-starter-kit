@@ -1,14 +1,12 @@
 <p>
   <a href="https://conedevelopment.com/#gh-light-mode-only">
     <br/>
-    <img src="./.github/cone-logo-dark.svg" alt="Cone Development" width="90">
-    <br/>
+    <img src="./.github/cone-logo-dark.svg" alt="Cone Development" width="100">
     <br/>
   </a>
   <a href="https://conedevelopment.com/#gh-dark-mode-only">
     <br/>
-    <img src="./.github/cone-logo-light.svg" alt="Cone Development" width="90">
-    <br/>
+    <img src="./.github/cone-logo-light.svg" alt="Cone Development" width="100">
     <br/>
   </a>
 </p>
@@ -74,7 +72,7 @@ The project compiles the SCSS files from the `assets/sass` folder into the `asse
 
 ## Browsersync
 
-Running the `npm run dev` will also start up a Browsersync server which you can share across your local network. It will automatically open the URL in your default browser with the `html/page/home.html` file.
+Running the `npm run dev` will also start up a Browsersync server which you can share across your local network. It will automatically open the URL in your default browser with the `html/page/index.html` file.
 
 ## Misc
 
@@ -82,7 +80,7 @@ Running the `npm run dev` will also start up a Browsersync server which you can 
 
 **Sass Lint:** You can lint your SCSS files with [Stylelint](https://stylelint.io/) and [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines) preset with the `npm run sass-lint` command.
 
-**Icons:** A starter kit uses a simple SVG-based icon solution. You can extend it through `assets/icon/icons.svg` file. To use the icons first, you have to include them in any Pug template (like you see it in the `home.pug`). We created an `icon` mixin with which you can easily include any icon as you see in the `testimonial.pug` file.
+**Icons:** A starter kit uses a simple SVG-based icon solution. You can extend it through `assets/icon/icons.svg` file. To use the icons first, you have to include them in any Pug template (like you see it in the `index.pug`). We created an `icon` mixin with which you can easily include any icon as you see in the `testimonial.pug` file.
 
 ## License
 
