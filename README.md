@@ -1,7 +1,13 @@
-<p align="center">
-  <a href="https://conedevelopment.com/">
+<p>
+  <a href="https://conedevelopment.com/#gh-light-mode-only">
     <br/>
-    <img src="https://conedevelopment.com/wp-content/themes/cone/assets/img/logo.svg" alt="Cone Development" width="90">
+    <img src="./.github/cone-logo-dark.svg" alt="Cone Development" width="90">
+    <br/>
+    <br/>
+  </a>
+  <a href="https://conedevelopment.com/#gh-dark-mode-only">
+    <br/>
+    <img src="./.github/cone-logo-light.svg" alt="Cone Development" width="90">
     <br/>
     <br/>
   </a>
@@ -15,6 +21,7 @@ If you want to know why it is a good idea to design in the browser, you can read
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Get Up and Running](#get-up-and-running)
 - [Pug](#pug)
 - [SCSS](#scss)
@@ -45,6 +52,14 @@ It is easy to start a new project, but please read the following points ([Pug](#
 
     This script will also watch for changes in the `pug` and `assets/scss` folders.
 
+4. **Run the production mode**
+  
+    Running the `prod` script, you can create compressed CSS files without .map. Also, it will compile the `pug` files too.
+
+    ```shell
+    npm run prod
+    ```
+
 ## Pug
 
 Pug (formerly Jade) is a JavaScript template engine mostly for Node. It compiles to HTML, has a simplified syntax. Easy to use, handles include (separate files like a header or footer component), can work with JSON data.
@@ -71,4 +86,4 @@ Running the `npm run dev` will also start up a Browsersync server which you can 
 
 ## License
 
-The “Designing in the Browser Starter Kit” is open-sourced software licensed under the [MIT](LICENSE) unless the Cone Development logo.
+The code is licensed under the [MIT](LICENSE).
