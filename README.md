@@ -1,7 +1,7 @@
 <p>
   <a href="https://sprucecss.com/">
     <br/>
-    <img src="./.github/spruce-logo-dark.svg" alt="Cone Development" width="150">
+    <img src="./.github/spruce-logo-dark.svg" alt="Spruce CSS" width="150">
     <br/>
   </a>
 </p>
