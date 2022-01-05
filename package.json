@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "beautify": "js-beautify --type html --indent-size 4 --inline i,b,strong,span html/**/*.html",
+        "beautify": "js-beautify --type html --indent-size 2 --inline i,b,strong,span html/**/*.html",
         "browser-sync": "browser-sync start --server --startPath \"html/page/index.html\" --files \"**/*\" --directory --no-notify",
         "delete-dev-folder": "del-cli --force assets/css",
-        "prod": "npm-run-all delete-dev-folder sass-compile-prod",
+        "prod": "npm-run-all delete-dev-folder pug sass-compile-prod beautify",
         "pug": "pug --obj pug/assets/data.json --watch pug/templates --out html/ --pretty",
         "sass-compile-dev": "sass --load-path=node_modules --watch --no-source-map --update --style=expanded assets/scss:assets/css",
         "dev": "npm-run-all --parallel pug sass-compile-dev browser-sync",
