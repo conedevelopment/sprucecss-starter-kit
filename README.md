@@ -60,7 +60,7 @@ Pug (formerly Jade) is a JavaScript template engine primarily for Node. It compi
 
 You can find the templates in the `pug/templates` folder in the root, and it will compile into the `html` folder.
 
-Under the `pug/assets` folder, you find the `data.json` and the `mixin.pug` files. The first can contain any JSON formatted data for later use, and the second is a simple mixin for the icons. You can find an example for both in the `pug/templates/components/testimonial.pug` file.
+Under the `pug/assets` folder, you find the `data.json` and the `mixin.pug` files. The first can contain any JSON formatted data for later use, and the second is a simple mixin for the icons. You can find an example for both in the `pug/templates/components/docs.pug` file.
 
 ## SCSS
 
@@ -76,7 +76,7 @@ Running the `npm run dev` will also start up a Browsersync server which you can 
 
 **Sass Lint:** You can lint your SCSS files with [Stylelint](https://stylelint.io/) and [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines) preset with the `npm run sass-lint` command. Use the `npm run sass-lint-with-fix` command if you want automatic fixes.
 
-**Icons:** A starter kit uses a simple SVG-based icon solution. You can extend it through `assets/icon/icons.svg` file. You have to include them in any Pug template (like you see it in the `testimonial.pug`) to use.
+**Icons:** A starter kit uses a simple SVG-based icon solution. You can extend it through `assets/icon/icons.svg` file. You have to include them in any Pug template (like you see it in the `docs.pug`) to use.
 
 ## License
 
