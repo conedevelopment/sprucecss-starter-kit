@@ -1,0 +1,7 @@
+@use 'sprucecss/scss/spruce';
+
+.footer {
+  &__container {
+    @include spruce.layout-center;
+  }
+}

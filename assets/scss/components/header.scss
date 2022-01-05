@@ -1,0 +1,7 @@
+@use 'sprucecss/scss/spruce';
+
+.header {
+  &__container {
+    @include spruce.layout-center;
+  }
+}

@@ -1,6 +1,11 @@
 @use 'sprucecss/scss/spruce';
 
 .testimonials {
-    background-color: #efefef;
-    padding: 2rem;
+  &__container {
+    @include spruce.layout-center;
+  }
+
+  &__inner {
+    @include spruce.layout-grid(spruce.spacer(l), 20rem);
+  }
 }

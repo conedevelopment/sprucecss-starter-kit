@@ -1,1 +1,7 @@
-@forward 'components/testimonial'; 
+@use 'sprucecss/scss/spruce' with (
+  $container-width: 60rem
+);
+
+@forward 'components/header';
+@forward 'components/testimonial';
+@forward 'components/footer';
