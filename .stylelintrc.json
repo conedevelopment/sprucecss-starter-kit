@@ -1,9 +1,22 @@
 {
-    "extends": "stylelint-config-sass-guidelines",
-    "rules": {
-        "indentation": 4,
-        "max-nesting-depth": 3,
-        "selector-max-compound-selectors": 4,
-        "selector-no-qualifying-type": [true, { "ignore": ["attribute"] }]
-    }
+  "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "function-parentheses-space-inside": "never-single-line",
+    "max-nesting-depth": 4,
+    "selector-no-vendor-prefix": [true,
+      {
+        "ignoreSelectors": ["/-moz-.*/", "/-ms-.*/", "/-webkit-.*/"]
+      }
+    ],
+    "selector-no-qualifying-type": [true,
+      {
+        "ignore": ["attribute"]
+      }
+    ],
+    "value-no-vendor-prefix": [true,
+      {
+        "ignoreValues": ["box"]
+      }
+    ]
+  }
 }
