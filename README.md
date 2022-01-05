@@ -1,21 +1,16 @@
 <p>
-  <a href="https://conedevelopment.com/#gh-light-mode-only">
+  <a href="https://sprucecss.com/">
     <br/>
-    <img src="./.github/cone-logo-dark.svg" alt="Cone Development" width="100">
-    <br/>
-  </a>
-  <a href="https://conedevelopment.com/#gh-dark-mode-only">
-    <br/>
-    <img src="./.github/cone-logo-light.svg" alt="Cone Development" width="100">
+    <img src="./.github/spruce-logo-dark.svg" alt="Cone Development" width="150">
     <br/>
   </a>
 </p>
 
-**The “Designing in the Browser Starter Kit” repository contains a simple foundation for designing in the browser. It is nothing more but a simple and opinionated starter foundation based on our experience. So feel free to modify in any way.**
+**The “Spruce CSS Starter Kit” repository contains a simple foundation for starting your next project with ease using Spruce CSS.**
 
-It is a mix of essential tools that we like to use and necessary for working in the browser fast. This project aims to quickly design and then get the source files to integrate into other platforms like WordPress, Laravel, or Gatsby.
+It is a mix of essential tools that we like to use and necessary for working in the browser fast. This project aims to quickly design and then get the source files to integrate into other platforms like WordPress, Laravel, or Gatsby, but you can also use it as your primary tool, depending on your needs.
 
-If you want to know why it is a good idea to design in the browser, you can read about [my thoughts on Pine](https://pineco.de/designing-in-the-browser/).
+It contains everything that is needed to design in the browser. If you want to know why it is a good idea to develop in the browser, you can read about [my thoughts on Pine](https://pineco.de/designing-in-the-browser/).
 
 ## Table of Contents
 
@@ -24,17 +19,18 @@ If you want to know why it is a good idea to design in the browser, you can read
 - [Pug](#pug)
 - [SCSS](#scss)
 - [Browsersync](#browsersync)
-- [Misc](#misc)
+- [More Scripts](#more-scripts)
 - [License](#license)
 
 ## Get Up and Running
 
-It is easy to start a new project, but please read the following points ([Pug](#pug) [Sass](#sass) [Browsersync](#browsersync)) to understand how it works before you do it.
+The Starter Kit using [Pug](#pug), [Sass](#sass), [Browsersync](#browsersync).
 
 1. **Clone the repository.**
+
 2. **Install the dependencies.**
 
-    In the `package.json` file, you will find all of the dependencies to install them use the following command:
+    In the `package.json` file, you will find all of the dependencies to install them using the following command:
 
     ```shell
     npm install
@@ -42,7 +38,7 @@ It is easy to start a new project, but please read the following points ([Pug](#
 
 3. **Run the development mode**
 
-    To run the development mode, use the `dev` script, which does all the job (start a webserver, compile Pug and Sass). In the `package.json`, you can find the individual scripts too.
+    To run the development mode, use the `dev` script, which does everything (start the webserver, compile Pug and Sass). See more about the scripts in the `package.json` file.
 
     ```shell
     npm run dev
@@ -51,8 +47,8 @@ It is easy to start a new project, but please read the following points ([Pug](#
     This script will also watch for changes in the `pug` and `assets/scss` folders.
 
 4. **Run the production mode**
-  
-    Running the `prod` script, you can create compressed CSS files without .map. Also, it will compile the `pug` files too.
+
+    Running the `prod` script, you can create compressed CSS files without .map. Also, it will compile the `pug` files and run the beautifying too.
 
     ```shell
     npm run prod
@@ -60,7 +56,7 @@ It is easy to start a new project, but please read the following points ([Pug](#
 
 ## Pug
 
-Pug (formerly Jade) is a JavaScript template engine mostly for Node. It compiles to HTML, has a simplified syntax. Easy to use, handles include (separate files like a header or footer component), can work with JSON data.
+Pug (formerly Jade) is a JavaScript template engine primarily for Node. It compiles to HTML, has a simplified syntax. Easy to use, handles include (separate files like a header or footer component), can work with JSON data.
 
 You can find the templates in the `pug/templates` folder in the root, and it will compile into the `html` folder.
 
@@ -68,20 +64,33 @@ Under the `pug/assets` folder, you find the `data.json` and the `mixin.pug` file
 
 ## SCSS
 
-The project compiles the SCSS files from the `assets/sass` folder into the `assets/css` folder. We gave the same default CSS styles but feel free to remove them. The value here is the simple compiler that uses the sass-cli.
+The project compiles the SCSS files from the `assets/sass` folder into the `assets/css` folder. The project includes Spruce CSS, which gives most of the styles, but we have some pre-styled, minimal components too.
 
 ## Browsersync
 
 Running the `npm run dev` will also start up a Browsersync server which you can share across your local network. It will automatically open the URL in your default browser with the `html/page/index.html` file.
 
-## Misc
+## More Scripts
 
-**HTML Beautify:** You can run your generated files through a [beautifier](https://www.npmjs.com/package/js-beautify) with the `npm run beautify` command; this is needed because sometimes the Pug pretty formatting makes a mistake (or you need another indenting).
+**HTML Beautify:** You can run your generated HTML files through a [beautifier](https://www.npmjs.com/package/js-beautify) with the `npm run beautify` command; this is needed because sometimes the Pug pretty formatting makes a mistake (or you need another indenting). This will also run with the `prod` script.
 
-**Sass Lint:** You can lint your SCSS files with [Stylelint](https://stylelint.io/) and [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines) preset with the `npm run sass-lint` command.
+**Sass Lint:** You can lint your SCSS files with [Stylelint](https://stylelint.io/) and [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines) preset with the `npm run sass-lint` command. Use the `sass-lint-with-fix` command if you want automatic fixes.
 
-**Icons:** A starter kit uses a simple SVG-based icon solution. You can extend it through `assets/icon/icons.svg` file. To use the icons first, you have to include them in any Pug template (like you see it in the `index.pug`). We created an `icon` mixin with which you can easily include any icon as you see in the `testimonial.pug` file.
+**Icons:** A starter kit uses a simple SVG-based icon solution. You can extend it through `assets/icon/icons.svg` file. You have to include them in any Pug template (like you see it in the `testimonial.pug`) to use.
 
 ## License
 
 The code is licensed under the [MIT](LICENSE).
+
+<p>
+  <a href="https://conedevelopment.com/#gh-light-mode-only">
+    <br/>
+    <img src="./.github/cone-logo-dark.svg" alt="Cone Development" width="70">
+    <br/>
+  </a>
+  <a href="https://conedevelopment.com/#gh-dark-mode-only">
+    <br/>
+    <img src="./.github/cone-logo-light.svg" alt="Cone Development" width="70">
+    <br/>
+  </a>
+</p>
