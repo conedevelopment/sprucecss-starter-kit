@@ -1,24 +1,28 @@
 {
-    "testimonials":[
-        {
-            "icon": "fingerprint",
-            "title": "Testimonial 01",
-            "description": "Lorem ipsum dolor sit amet, gravida nonna maecenas veritatis vestum."
-        },
-        {
-            "icon": "shopping-bag",
-            "title": "Testimonial 02",
-            "description": "Etiam ipsum justo, ullamcorper at placerat ac, consectetur quis lacus."
-        },
-        {
-            "icon": "receipt",
-            "title": "Testimonial 03",
-            "description": "Curabitur metus dolor, interdum ut ex id, luctus convallis ligula."
-        },
-        {
-            "icon": "support",
-            "title": "Testimonial 04",
-            "description": "Suspendisse neque purus, pharetra eget accumsan nec, pharetra feugiat neque."
-        }
-    ]
+  "docs": [
+    {
+      "title": "Introduction",
+      "link" : "https://sprucecss.com/docs/getting-started/introduction"
+    },
+    {
+      "title": "Installation",
+      "link" : "https://sprucecss.com/docs/getting-started/installation"
+    },
+    {
+      "title": "Structure and Code",
+      "link" : "https://sprucecss.com/docs/getting-started/structure-and-code"
+    },
+    {
+      "title": "Typography",
+      "link" : "https://sprucecss.com/docs/elements/typography"
+    },
+    {
+      "title": "Tables",
+      "link" : "https://sprucecss.com/docs/elements/tables"
+    },
+    {
+      "title": "Buttons",
+      "link" : "https://sprucecss.com/docs/elements/buttons"
+    }
+  ]
 }

@@ -5,19 +5,15 @@ html(lang='en')
     head
         meta(charset='UTF-8')
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
-        meta(name='robots' content='noindex')
-        title Designing in the Browser Starter Kit - Cone
-        link(rel='preconnect' href='//fonts.googleapis.com')
+        title Spruce CSS Starter Kit
         link(rel='icon' href='../../assets/img/favicon.png' sizes='32x32')
-        link(rel='stylesheet' href='//fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
         link(rel='stylesheet' href=`../../assets/css/main.css?time=${time}`)
-        link(rel='stylesheet' href=`../../assets/css/components/generic/testimonial.css?time=${time}`)
 
     body
-        include ../components/generic/header
+        include ../components/header
         main(id='content')
-            include ../components/generic/testimonial
-        include ../components/generic/footer
+            include ../components/docs
+        include ../components/footer
         include ../../../assets/icon/icons.svg
 
         script(src='../../assets/js/main.js')
