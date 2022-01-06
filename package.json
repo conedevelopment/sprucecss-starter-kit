@@ -1,7 +1,4 @@
 {
-    "name": "designing-in-the-browser-starter-kit",
-    "version": "1.0.0",
-    "description": "",
     "scripts": {
         "beautify": "js-beautify --type html --indent-size 2 --inline i,b,strong,span html/**/*.html",
         "browser-sync": "browser-sync start --server --startPath \"html/page/index.html\" --files \"**/*\" --directory --no-notify",
@@ -14,8 +11,6 @@
         "sass-lint": "stylelint assets/scss/**/*.scss",
         "sass-lint-with-fix": "stylelint assets/scss/**/*.scss --fix"
     },
-    "author": "Cone Development",
-    "license": "MIT",
     "devDependencies": {
         "browser-sync": "^2.27.7",
         "del-cli": "^4.0.1",
