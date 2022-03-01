@@ -1,7 +1,7 @@
 {
   "scripts": {
     "beautify": "js-beautify --type html --indent-size 2 --inline i,b,strong,span html/**/*.html",
-    "browser-sync": "browser-sync start --server --startPath \"html/page/index.html\" --files \"**/*\" --directory --no-notify",
+    "browser-sync": "browser-sync start --server --startPath \"html/page/index.html\" --files \"**/*\" --directory --no-notify --no-open",
     "delete-dev-folder": "del-cli --force assets/css",
     "prod": "npm-run-all delete-dev-folder pug-prod sass-compile-prod beautify",
     "pug-dev": "pug --obj pug/assets/data.json --watch pug/templates --out html/ --pretty",
