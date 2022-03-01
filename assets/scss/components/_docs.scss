@@ -2,7 +2,7 @@
 
 .docs {
   &__container {
-    @include spruce.layout-center($gutter: clamp(spruce.spacer(m), 5vw, spruce.spacer(l)));
+    @include spruce.layout-center(clamp(spruce.spacer(m), 5vw, spruce.spacer(l)));
   }
 
   &__inner {
