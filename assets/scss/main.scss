@@ -10,3 +10,6 @@
 @forward 'components/header';
 @forward 'components/docs';
 @forward 'components/footer';
+
+@include spruce.generate-content;
+@include spruce.generate-form
