@@ -1,15 +1,8 @@
-@use 'sprucecss/scss/spruce' with (
-  $colors: (
-    document-card: (
-      background: hsl(0, 0%, 100%),
-      border: hsl(0, 0%, 0%)
-    )
-  )
-);
+// Load Spruce CSS
+@forward 'config';
+@forward 'styles';
 
+// Load Components
 @forward 'components/header';
 @forward 'components/docs';
 @forward 'components/footer';
-
-@include spruce.generate-content;
-@include spruce.generate-form
