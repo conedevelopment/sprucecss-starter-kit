@@ -17,6 +17,8 @@
       {
         "ignoreValues": ["box"]
       }
-    ]
+    ],
+    "selector-class-pattern": null,
+    "scss/percent-placeholder-pattern": null
   }
 }
