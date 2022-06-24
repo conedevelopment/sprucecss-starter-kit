@@ -4,6 +4,7 @@ div(class='docs')
   div(class='docs__container')
     div(class='docs__inner')
       each doc in docs
-        a(href=`${doc.link}` class='document-card')
-          span(class='document-card__serial-number')= `0${n++}`
-          h2(class='document-card__title')= doc.title
+        div(class='doc-card')
+          span(class='doc-card__serial-number')= `0${n++}`
+          h2(class='doc-card__title')
+            a(href=`${doc.link}` class='doc-card__link')= doc.title

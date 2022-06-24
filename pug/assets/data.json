@@ -5,24 +5,24 @@
       "link" : "https://sprucecss.com/docs/getting-started/introduction"
     },
     {
-      "title": "Installation",
-      "link" : "https://sprucecss.com/docs/getting-started/installation"
+      "title": "Themes",
+      "link" : "https://sprucecss.com/docs/customization/themes"
     },
     {
-      "title": "Structure and Code",
-      "link" : "https://sprucecss.com/docs/getting-started/structure-and-code"
+      "title": "Mixins",
+      "link" : "https://sprucecss.com/docs/sass/mixins"
     },
     {
       "title": "Typography",
       "link" : "https://sprucecss.com/docs/elements/typography"
     },
     {
-      "title": "Tables",
-      "link" : "https://sprucecss.com/docs/elements/tables"
-    },
-    {
       "title": "Buttons",
       "link" : "https://sprucecss.com/docs/elements/buttons"
+    },
+    {
+      "title": "Forms",
+      "link" : "https://sprucecss.com/docs/elements/forms"
     }
   ]
 }
