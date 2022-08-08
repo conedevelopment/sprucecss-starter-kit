@@ -86,16 +86,3 @@ Running the `npm run dev` will also start up a Browsersync server which you can 
 ## License
 
 The code is licensed under the [MIT](LICENSE).
-
-<p>
-  <a href="https://conedevelopment.com/#gh-light-mode-only">
-    <br/>
-    <img src="./.github/cone-logo-dark.svg" alt="Cone Development" width="70">
-    <br/>
-  </a>
-  <a href="https://conedevelopment.com/#gh-dark-mode-only">
-    <br/>
-    <img src="./.github/cone-logo-light.svg" alt="Cone Development" width="70">
-    <br/>
-  </a>
-</p>
