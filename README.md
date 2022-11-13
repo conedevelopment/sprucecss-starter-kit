@@ -46,7 +46,7 @@ The Starter Kit using [Pug](#pug), [Sass](#sass), [Browsersync](#browsersync).
     To run the development mode, use the `dev` script, which does everything (start the webserver, compile Pug and Sass). See more about the scripts in the `package.json` file.
 
     ```shell
-    npm run dev
+    npm start
     ```
 
     This script will also watch for changes in the `pug` and `assets/scss` folders.
